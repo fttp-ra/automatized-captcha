@@ -7,9 +7,9 @@ from selenium.webdriver.common.keys import Keys
 
 x = 0
 
-while x <= 100:
+while x <= 1:
 
-    browser = webdriver.Chrome(executable_path=r"/home/rhino/opt/chromedriver")
+    browser = webdriver.Chrome(executable_path=r"C:/Users/luxci/Downloads/chromedriver_win32/chromedriver")
 
     browser.get('http://contribuyente.seniat.gob.ve/iseniatlogin/contribuyente.do')
 
@@ -25,6 +25,6 @@ while x <= 100:
 
     time.sleep(2)
 
-    #browser.close()
+    browser.close()
 
     x+=1
